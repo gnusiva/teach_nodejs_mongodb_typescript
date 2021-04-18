@@ -1,0 +1,30 @@
+{
+  "name": "teach_nodejs_mongodb_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "one.js",
+  "scripts": {
+    "start": "tsc && node dist/one.js",
+    "dev": "ts-node-dev one.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnusiva/teach_nodejs_mongodb_typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnusiva/teach_nodejs_mongodb_typescript/issues"
+  },
+  "homepage": "https://github.com/gnusiva/teach_nodejs_mongodb_typescript#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "ts-node-dev": "^1.1.6",
+    "tslint": "^5.20.1",
+    "typescript": "^4.2.4"
+  }
+}
